@@ -1,4 +1,4 @@
-v2.3.0
+v2.2.0
 ======
 
 > Spring cleaning
@@ -8,7 +8,7 @@ v2.3.0
 + add CHANGELOG.md
 + add CONTRIBUTING.md
 
-v2.0.0
+v2.1.0
 ======
 
 + add `web-app` scaffold
