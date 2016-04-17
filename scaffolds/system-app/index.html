@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="description" content="<%- description %>">
+    <meta name="author" content="<%- author %>">
+
+    <title><%- name %></title>
+
+    <link rel='stylesheet' href="build/bundle.css">
+  </head>
+  <body>
+
+		<script src="jspm_packages/system.js"></script>
+    <script src="build/bundle.js"></script>
+		<script>
+    	System.import('build/bundle')
+  	</script>
+
+  </body>
+</html>
